@@ -1,0 +1,3 @@
+services:
+  - name: web
+    startCommand: gunicorn task1.wsgi:application
