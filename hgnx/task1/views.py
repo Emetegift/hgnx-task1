@@ -1,7 +1,5 @@
 from django.shortcuts import render
 from rest_framework.response import Response
-# from django.forms.models import model_to_dict
-# from post.models import Post
 from rest_framework.decorators import api_view
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
