@@ -1,3 +1,1 @@
-services:
-  - name: web
-    startCommand: gunicorn hgnx.wsgi.application
+web: gunicorn hgnx:wsgi
